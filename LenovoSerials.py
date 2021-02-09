@@ -8,7 +8,7 @@ import sys
 #print(len(sys.argv))
 if len(sys.argv) < 3:
     amount = 0
-    print("Usage: serials.py <output file> <serials to generate>")
+    print("Usage: LenovoSerials.py <output file> <serials to generate>")
     sys.exit()
 else:
     file = sys.argv[1]
