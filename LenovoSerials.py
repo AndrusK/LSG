@@ -23,7 +23,7 @@ upper_alphabet = string.ascii_uppercase
 postfix = ["0","1","2","3","4","5","6","7","8","9"]
 
 def makeSerial():
-    return random.choice(prefix) + random.choice(midfix) + random.choice(upper_alphabet) + random.choice(upper_alphabet) + random.choice(upper_alphabet) + random.choice(upper_alphabet) + random.choice(postfix)
+    return random.choice(prefix) + random.choice(infix) + random.choice(upper_alphabet) + random.choice(upper_alphabet) + random.choice(upper_alphabet) + random.choice(upper_alphabet) + random.choice(postfix)
 
 
 for i in range(1,amount):
